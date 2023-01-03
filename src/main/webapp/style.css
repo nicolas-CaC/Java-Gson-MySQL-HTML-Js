@@ -1,0 +1,41 @@
+.button {
+    border: 0;
+    background: transparent;
+}
+
+.button:hover {
+    color: #1170b3;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.511);
+}
+
+.verde {
+    background: #7abe49;
+}
+
+.verde:hover {
+    background: #5b9134;
+}
+
+.naranja {
+    background: #d77c53;
+}
+
+.naranja:hover {
+    background: #ef5007;
+}
+
+.violeta {
+    background: #92388a;
+}
+
+.violeta:hover {
+    background: #b311a6;
+}
+
+.celeste {
+    background: #388c92;
+}
+
+.celeste:hover {
+    background: #1170b3;
+}
