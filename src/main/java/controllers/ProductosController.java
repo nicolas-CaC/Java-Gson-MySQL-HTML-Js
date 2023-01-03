@@ -14,8 +14,7 @@ import models.Productos;
 import models.ProductosDao;
 import Errores.Errores;
 
-@WebServlet(name = "ProductosController", 
-        urlPatterns = {"/api"})
+@WebServlet(name = "ProductosController", urlPatterns = {"/api"})
 public class ProductosController extends HttpServlet {
 
     private final Gson gson = new Gson();
