@@ -21,6 +21,8 @@ public class ProductosController extends HttpServlet {
     private final Gson gson = new Gson();
     ProductosDao productos = new ProductosDao();
     
+    // Métodos GET, POST, faltan PUT y DELETE
+    
     @Override
     protected void doGet(
             HttpServletRequest req, 
@@ -44,6 +46,8 @@ public class ProductosController extends HttpServlet {
         String error = obtenerError(exito);
         enviar(resp, error);
     }
+    
+    // Métodos privados de utilidad
 
     private static String inputStreamToString(InputStream inputStream){
         Scanner scanner = new Scanner(inputStream, "UTF-8");
